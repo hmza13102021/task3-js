@@ -1,0 +1,103 @@
+body
+{   background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";  
+}
+.container{
+   
+    min-height: 100vh;
+    min-width: 100%;
+    position: relative;
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 80%;
+    margin: auto;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}   
+ul li{    
+    display: inline-block;    
+    list-style: none;            
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;   
+    
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 10px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.text{
+    width: 40%;
+    padding: 0 20px;
+    color: white;
+}
+
+.text h2{  
+    font-size: 50px;
+    margin: 0;  
+    text-transform: uppercase;
+ }
+
+.text p{
+    font-size: 20px;  
+     
+    margin: 20px 0;  
+}
+.text a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.image{
+    width: 30%;  
+     
+}
+
+.image img{
+    width: 180px;
+}   
+.icons{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 30%;
+    margin: auto;
+   
+    margin-top: 50px;
+}
+.icons img{
+    width: 50px;
+    transition: 0.5s;
+} 
+.icons img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}   
